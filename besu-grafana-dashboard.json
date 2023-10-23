@@ -18,7 +18,7 @@
       }
     ]
   },
-  "description": "Provides an overview of Besu nodes",
+  "description": "Provides an overview of Holesky Besu nodes",
   "editable": true,
   "gnetId": 10273,
   "graphTooltip": 0,
@@ -144,9 +144,7 @@
           "decimals": 2,
           "mappingType": 1,
           "pattern": "Value #C",
-          "thresholds": [
-            ""
-          ],
+          "thresholds": [""],
           "type": "number",
           "unit": "locale"
         },
@@ -198,10 +196,7 @@
           "decimals": 0,
           "mappingType": 1,
           "pattern": "Value #E",
-          "thresholds": [
-            "120",
-            "240"
-          ],
+          "thresholds": ["120", "240"],
           "type": "number",
           "unit": "dtdurations"
         },
@@ -235,10 +230,7 @@
           "decimals": 2,
           "mappingType": 1,
           "pattern": "Value #G",
-          "thresholds": [
-            "1",
-            "10"
-          ],
+          "thresholds": ["1", "10"],
           "type": "number",
           "unit": "locale",
           "valueMaps": [
@@ -265,10 +257,7 @@
           "decimals": 0,
           "mappingType": 1,
           "pattern": "Value #H",
-          "thresholds": [
-            "0.25",
-            "0.75"
-          ],
+          "thresholds": ["0.25", "0.75"],
           "type": "number",
           "unit": "percentunit"
         },
@@ -472,9 +461,7 @@
           "decimals": 0,
           "mappingType": 1,
           "pattern": "Value #C",
-          "thresholds": [
-            ""
-          ],
+          "thresholds": [""],
           "type": "number",
           "unit": "locale"
         },
@@ -526,10 +513,7 @@
           "decimals": 0,
           "mappingType": 1,
           "pattern": "Value #E",
-          "thresholds": [
-            "0",
-            "0"
-          ],
+          "thresholds": ["0", "0"],
           "type": "number",
           "unit": "locale"
         },
@@ -563,10 +547,7 @@
           "decimals": 2,
           "mappingType": 1,
           "pattern": "Value #G",
-          "thresholds": [
-            "1",
-            "10"
-          ],
+          "thresholds": ["1", "10"],
           "type": "number",
           "unit": "locale",
           "valueMaps": [
@@ -593,10 +574,7 @@
           "decimals": 0,
           "mappingType": 1,
           "pattern": "Value #H",
-          "thresholds": [
-            "0.25",
-            "0.75"
-          ],
+          "thresholds": ["0.25", "0.75"],
           "type": "number",
           "unit": "percentunit"
         },
@@ -1148,10 +1126,7 @@
   "refresh": "10s",
   "schemaVersion": 30,
   "style": "dark",
-  "tags": [
-    "besu",
-    "ethereum"
-  ],
+  "tags": ["besu", "ethereum"],
   "templating": {
     "list": [
       {
@@ -1203,20 +1178,10 @@
       "2h",
       "1d"
     ],
-    "time_options": [
-      "5m",
-      "15m",
-      "1h",
-      "6h",
-      "12h",
-      "24h",
-      "2d",
-      "7d",
-      "30d"
-    ]
+    "time_options": ["5m", "15m", "1h", "6h", "12h", "24h", "2d", "7d", "30d"]
   },
   "timezone": "",
-  "title": "Besu Overview",
-  "uid": "besu-public-5S-6O8VZk",
+  "title": "Holesky Besu Overview",
+  "uid": "holesky-besu-public-5S-6O8VZk",
   "version": 2
 }

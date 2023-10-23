@@ -1,22 +1,18 @@
 {
-  "name": "besu.public.dappnode.eth",
-  "version": "1.2.10",
-  "description": "An enterprise-grade Java-based, Apache 2.0 licensed Ethereum Execution Layer client",
+  "name": "holesky-besu.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "An enterprise-grade Java-based, Apache 2.0 licensed Ethereum Execution Layer client for Holesky testnet",
   "shortDescription": "Java-based Ethereum Client",
-  "upstreamVersion": "23.7.1",
+  "upstreamVersion": "23.10.0",
   "upstreamRepo": "hyperledger/besu",
   "upstreamArg": "UPSTREAM_VERSION",
   "type": "service",
-  "author": "Nabsku <thenabsku@gmail.com> (https://github.com/Nabsku)",
-  "contributors": [
-    "Nabsku <thenabsku@gmail.com> (https://github.com/Nabsku)",
-    "Voss <alex@visnovaventures.com> (https://github/alexpeterson91)"
-  ],
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "categories": ["Blockchain"],
   "architectures": ["linux/amd64", "linux/arm64"],
   "chain": "ethereum",
   "requirements": {
-    "minimumDappnodeVersion": "0.2.60"
+    "minimumDappnodeVersion": "0.2.81"
   },
   "exposable": [
     {
@@ -33,8 +29,8 @@
     }
   ],
   "links": {
-    "endpoint": "http://besu.public.dappnode:8545",
-    "apiEngine": "http://besu.public.dapppnode:8551",
+    "endpoint": "http://holesky-besu.public.dappnode:8545",
+    "apiEngine": "http://holesky-besu.public.dapppnode:8551",
     "homepage": "https://github.com/hyperledger/besu",
     "docs": "https://besu.hyperledger.org/en/stable/"
   },
