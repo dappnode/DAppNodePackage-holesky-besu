@@ -44,7 +44,7 @@
   "license": "Apache-2.0",
   "globalEnvs": [
     {
-      "envs": ["CONSENSUS_CLIENT_MAINNET"],
+      "envs": ["CONSENSUS_CLIENT_HOLESKY"],
       "services": ["besu"]
     }
   ]
