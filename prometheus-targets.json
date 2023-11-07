@@ -1,12 +1,10 @@
 [
   {
     "labels": {
-      "package": "besu.besu.public.dappnode.eth",
+      "package": "holesky-besu.dnp.dappnode.eth",
       "service": "besu",
       "__metrics_path__": "/metrics"
     },
-    "targets": [
-      "besu.besu.public.dappnode:9545"
-    ]
+    "targets": ["besu.holesky-besu.dappnode:9545"]
   }
 ]
