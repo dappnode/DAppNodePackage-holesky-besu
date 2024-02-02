@@ -4,7 +4,7 @@ services:
     build:
       context: build
       args:
-        UPSTREAM_VERSION: 23.10.1
+        UPSTREAM_VERSION: GHA.TESTRUN.1
     ports:
       - "30415:30415/tcp"
       - "30415:30415/udp"
