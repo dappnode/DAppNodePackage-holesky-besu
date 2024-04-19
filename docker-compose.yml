@@ -4,12 +4,12 @@ services:
     build:
       context: build
       args:
-        UPSTREAM_VERSION: 24.1.2
+        UPSTREAM_VERSION: 24.3.3
     ports:
-      - "30415:30415/tcp"
-      - "30415:30415/udp"
+      - 30415:30415/tcp
+      - 30415:30415/udp
     volumes:
-      - "data:/var/lib/besu"
+      - data:/var/lib/besu
     environment:
       BESU_DATA_STORAGE_FORMAT: BONSAI
       BESU_SYNC_MODE: X_CHECKPOINT
@@ -20,6 +20,6 @@ services:
       EXTRA_OPTS: ""
     restart: unless-stopped
     security_opt:
-      - "seccomp:unconfined"
+      - seccomp:unconfined
 volumes:
   data: {}
