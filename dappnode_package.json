@@ -11,19 +11,20 @@
   "categories": ["Blockchain"],
   "architectures": ["linux/amd64", "linux/arm64"],
   "chain": "ethereum",
+  "mainService": "besu",
   "requirements": {
     "minimumDappnodeVersion": "0.2.83"
   },
   "exposable": [
     {
       "name": "Besu JSON RPC",
-      "description": "JSON RPC endpoint for Besu",
+      "description": "JSON RPC endpoint for Holesky Besu",
       "serviceName": "besu",
       "port": 8545
     },
     {
       "name": "Besu JSON RPC (WS)",
-      "description": "JSON RPC WebSocket endpoint for Besu",
+      "description": "JSON RPC WebSocket endpoint for Holesky Besu",
       "serviceName": "besu",
       "port": 8546
     }
@@ -35,11 +36,11 @@
     "docs": "https://besu.hyperledger.org/en/stable/"
   },
   "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-Besu/issues"
+    "url": "https://github.com/dappnode/DAppNodePackage-Holesky-Besu/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dappnode/DAppNodePackage-Besu.git"
+    "url": "https://github.com/dappnode/DAppNodePackage-Holesky-Besu.git"
   },
   "license": "Apache-2.0",
   "globalEnvs": [
