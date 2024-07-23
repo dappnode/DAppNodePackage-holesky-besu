@@ -11,9 +11,9 @@ services:
     volumes:
       - data:/var/lib/besu
     environment:
-      BESU_DATA_STORAGE_FORMAT: BONSAI
-      BESU_SYNC_MODE: X_CHECKPOINT
-      BESU_RPC_HTTP_MAX_ACTIVE_CONNECTIONS: "170"
+      STORAGE_FORMAT: BONSAI
+      SYNC_MODE: SNAP
+      BESU_RPC_HTTP_MAX_ACTIVE_CONNECTIONS: "250"
       BESU_RPC_WS_ENABLED: "true"
       P2P_PORT: "30415"
       BESU_OPTS: ""
